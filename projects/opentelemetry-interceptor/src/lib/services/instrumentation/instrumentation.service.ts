@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { ZoneContextManager } from '@opentelemetry/context-zone-peer-dep';
+import { ZoneContextManager } from '@rbrennan-dev/context-zone-peer-dep';
 import { SemanticResourceAttributes } from '@opentelemetry/semantic-conventions';
 import { Resource } from '@opentelemetry/resources';
 import { InstrumentationOption, registerInstrumentations } from '@opentelemetry/instrumentation';

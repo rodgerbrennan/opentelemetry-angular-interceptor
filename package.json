@@ -1,7 +1,7 @@
 {
-  "name": "opentelemetry-angular-interceptor",
-  "version": "1.7.0",
-  "homepage": "https://github.com/jufab/opentelemetry-angular-interceptor",
+  "name": "@rbrennan-dev/opentelemetry-angular-interceptor",
+  "version": "1.7.1",
+  "homepage": "https://github.com/rodgerbrennan/opentelemetry-angular-interceptor",
   "author": {
     "name": "Julien Fabre"
   },
@@ -24,7 +24,6 @@
     "start:complete-instrumentation-example": "concurrently -k -p \"[{name}]\" -n \"backend,instrumentation-example\" -c \"green.bold,cyan.bold\" \"npm run start:backend-instrumentation-example\" \"npm start instrumentation-example\"",
     "compodoc": "npx compodoc -t -p projects/opentelemetry-interceptor/tsconfig.lib.json --theme material -d ./docs -n \"OpenTelemetry Angular Interceptor\""
   },
-  "private": true,
   "engines": {
     "node": ">=12.20.0"
   },
@@ -54,7 +53,7 @@
     "ngx-logger": "5.0.12",
     "rxjs": "^6.6.3",
     "tslib": "^2.6.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.13.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.12",
@@ -68,7 +67,7 @@
     "@angular/language-service": "^14.3.0",
     "@compodoc/compodoc": "^1.1.21",
     "@opentelemetry/api": "1.7.0",
-    "@opentelemetry/context-zone-peer-dep": "1.18.1",
+    "@rbrennan-dev/context-zone-peer-dep": "^1.18.2-alpha.a0421723",
     "@opentelemetry/exporter-trace-otlp-http": "0.45.1",
     "@opentelemetry/exporter-zipkin": "1.18.1",
     "@opentelemetry/instrumentation": "0.45.1",

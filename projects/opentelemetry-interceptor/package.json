@@ -1,7 +1,7 @@
 {
-  "name": "@jufab/opentelemetry-angular-interceptor",
+  "name": "@rbrennan-dev/opentelemetry-angular-interceptor",
   "version": "1.7.0",
-  "repository": "jufab/opentelemetry-angular-interceptor",
+  "repository": "rodgerbrennan/opentelemetry-angular-interceptor",
   "author": {
     "name": "Julien Fabre"
   },
