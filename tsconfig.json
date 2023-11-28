@@ -12,7 +12,7 @@
     "module": "es2020",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2020",
+    "target": "ES2022",
     "resolveJsonModule": true,
     "lib": [
       "es2018",
@@ -23,7 +23,8 @@
         "dist/opentelemetry-interceptor/opentelemetry-interceptor",
         "dist/opentelemetry-interceptor"
       ]
-    }
+    },
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
